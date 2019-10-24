@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Learn TNS Social Login</string>
+    <string name="title_activity_kimera">Learn TNS Social Login</string>
+    <string name="facebook_app_id">453480265314590</string>
+    <string name="fb_login_protocol_scheme">fb453480265314590</string>
+</resources>

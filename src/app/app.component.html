@@ -1,0 +1,19 @@
+<stack-layout padding="20">
+  <FacebookLoginButton (login)="onLogin($event)"
+                       (logout)="onLogout($event)"
+                       width="80%"></FacebookLoginButton>
+
+  <Button text="Custom Login"
+          backgroundColor="blue"
+          color="white"
+          margin="10 0"
+          padding="20 0"
+          (tap)="login()"></Button>
+
+  <Button text="Custom Logout"
+          backgroundColor="blue"
+          color="white"
+          margin="10 0"
+          padding="20 0"
+          (tap)="logout()"></Button>
+</stack-layout>
